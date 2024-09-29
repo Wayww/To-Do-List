@@ -1,0 +1,36 @@
+name: test_1
+description: "A new Flutter project."
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+  dio: ^5.7.0
+cupertino_icons: ^1.0.8
+dio: ^5.7.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  shared_preferences: ^2.0.14
+  path_provider: ^2.0.11
+
+flutter:
+  uses-material-design: true
+
+  fonts:
+    - family: RF Dewi
+      fonts:
+        - asset: fonts/RFDewi-Bold.ttf
+        - asset: fonts/RFDewi-Regular.ttf
+        - asset: fonts/RFDewi-Semibold.ttf
+
+assets:
+  - images/avatar_image.png

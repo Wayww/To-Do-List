@@ -2,7 +2,6 @@
 import 'package:dio/dio.dart';
 import 'package:flutter/material.dart';
 import 'package:test_1/main.dart';
-//'https://min-api.cryptocompare.com/data/pricemulty?fsyms=BTC,ETH,BNB,AVA&t'
 
 Future<List> getProjectlist() async {
   try {

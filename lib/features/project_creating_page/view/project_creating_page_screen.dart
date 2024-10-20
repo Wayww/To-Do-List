@@ -29,6 +29,7 @@ class _ProjectCreationPageState extends State<ProjectCreationPage> {
       final project = Project(
         name: _projectNameController.text,
         tasks: _tasks,
+        taskCompletion: [],
       );
       widget.onCreate(project);
       Navigator.pop(context);
